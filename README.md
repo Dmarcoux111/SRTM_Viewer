@@ -16,3 +16,8 @@ rename the map to: ETOPO1_Bedrock_grid_registered_geotiff.tif
 #To Run
 
 click electron.exe | cd resources/app/ && npm run prod | cd resources/app/ && npm run dev
+
+
+
+
+*note, I would include the entire tif file in source, however github permits me from uploading anything above 100mb. Take it up with Mr. Git.
