@@ -1,0 +1,35 @@
+#footer {
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  background: var( --atom-background );
+  height: 24px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.column {
+  display: flex;
+  color: var( --text-green );
+  border-right: 1px solid var( --text-red );
+  padding: 2px 4px;
+}
+
+#file {
+  color: var( --text );
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+#longitude {
+  color: var( --text );
+}
+#latitude {
+  color: var( --text );
+}
+#elevation {
+  color: var( --text );
+}

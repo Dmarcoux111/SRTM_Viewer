@@ -1,0 +1,19 @@
+#debug {
+  top: 36px;
+  right: 2px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 4px;
+  background: var( --atom-background );
+  border-radius: 4px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: var( --text-green );
+}

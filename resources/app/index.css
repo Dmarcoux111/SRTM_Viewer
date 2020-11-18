@@ -1,0 +1,171 @@
+/*Font*/
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('./font/roboto-light/Roboto-Light.woff2') format('woff2'),
+       url('./font/roboto-light/Roboto-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url('./font/roboto-thin/Roboto-Thin.woff2') format('woff2'),
+       url('./font/roboto-thin/Roboto-Thin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*Color Palette*/
+:root {
+  --error-red: #FF4444;
+  --warning-yellow: #FFBB33;
+  --success-green: #00C851;
+  --info-blue: #4099FF;
+  --hilight-purple: #BB86FC;
+  --dark-background: #212121;
+  --really-dark-background: #121212;
+  --medium-dark-background: #333333;
+  --light-dark-background: #434343;
+  --light-background: #FAFAFA;
+
+  /* atom */
+  --atom-background: #292d34;
+  --text: #abb2bf;
+  --text-blue: #61afef;
+  --text-green: #98c379;
+  --text-orange: #d19a66;
+  --text-red: #e06c75;
+  --text-purple: #c678dd;
+  --text-gray: #9da39d;
+  --text-teal: #56b6c2;
+}
+
+
+/*Color Palette*/
+:root {
+  --dark-background-color: #212121;
+  --light-background-color: #FAFAFA;
+  --dark-accent-color: #44D62C;
+  --light-accent-color: #BB29D3;
+  --info-color: #9E9E9E;
+  --dark-gradient-color: linear-gradient(to top right, var(--dark-background-color), #000000);
+  --light-gradient-color: linear-gradient(to top right, var(--light-background-color), #EEEEEE);
+  --rainbow: linear-gradient(
+    45deg,
+    rgb(70, 0, 182),
+    rgb(0, 0, 255),
+    rgb(0, 255, 255),
+    rgb(0, 255, 0),
+    rgb(255, 255, 0),
+    rgb(255, 163, 0),
+    rgb(255, 0, 0)
+  );
+  --earth-tones: linear-gradient(
+    45deg,
+    rgb(91, 112, 84),
+    rgb(158, 184, 103),
+    rgb(206, 219, 129),
+    rgb(224, 224, 146),
+    rgb(231, 217, 132),
+    rgb(183, 143, 83),
+    rgb(159, 106, 59),
+    rgb(166, 125, 92),
+    rgb(172, 146, 124),
+    rgb(180, 167, 158),
+    rgb(220, 220, 220)
+  );
+  --spectral: linear-gradient(
+    45deg,
+    rgb(93, 78, 162),
+    rgb(50, 135, 189),
+    rgb(102, 194, 165),
+    rgb(171, 221, 163),
+    rgb(230, 245, 152),
+    rgb(255, 255, 190),
+    rgb(254, 223, 139),
+    rgb(253, 174, 97),
+    rgb(244, 109, 66),
+    rgb(213, 61, 78),
+    rgb(157, 0, 65)
+  );
+  --plasma: linear-gradient(
+    45deg,
+    rgb(61, 3, 155),
+    rgb(98, 0, 166),
+    rgb(133, 6, 166),
+    rgb(166, 31, 151),
+    rgb(191, 57, 130),
+    rgb(213, 83, 109),
+    rgb(231, 110, 90),
+    rgb(245, 141, 69),
+    rgb(252, 173, 49),
+    rgb(251, 209, 36),
+    rgb(239, 248, 33)
+  );
+  --yellow-green: linear-gradient(
+    45deg,
+    rgb(41, 72, 88),
+    rgb(34, 90, 107),
+    rgb(15, 110, 124),
+    rgb(0, 130, 135),
+    rgb(0, 149, 142),
+    rgb(34, 169, 143),
+    rgb(74, 188, 139),
+    rgb(113, 206, 132),
+    rgb(155, 223, 123),
+    rgb(201, 237, 115),
+    rgb(250, 250, 110)
+  );
+  --virdis: linear-gradient(
+    45deg,
+    rgb(68, 1, 83),
+    rgb(72, 35, 116),
+    rgb(64, 67, 135),
+    rgb(52, 94, 141),
+    rgb(41, 120, 142),
+    rgb(32, 144, 140),
+    rgb(34, 168, 132),
+    rgb(68, 190, 112),
+    rgb(121, 209, 81),
+    rgb(188, 222, 38),
+    rgb(253, 231, 36)
+  );
+  --inferno: linear-gradient(
+    45deg,
+    rgb(19, 10, 52),
+    rgb(57, 9, 98),
+    rgb(95, 18, 110),
+    rgb(133, 32, 107),
+    rgb(169, 46, 94),
+    rgb(203, 65, 73),
+    rgb(230, 92, 46),
+    rgb(247, 131, 16),
+    rgb(251, 174, 18),
+    rgb(245, 219, 75),
+    rgb(251, 254, 164)
+  );
+  --gray-scale: linear-gradient(
+    45deg,
+    rgb(100, 100, 100),
+    rgb(255, 255, 255)
+  );
+}
+
+/*Styles*/
+
+/* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+/* border-radius: 1-4 length|% / 1-4 length|%|initial|inherit; */
+/* transition: transform .12s ease-in, opacity .12s ease-in-out; */
+html {
+  background: none;
+}
+body {
+  box-sizing: border-box;
+  z-index: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background: var( --atom-background );
+  font-family: 'Roboto-Light', sans-serif;
+  padding: 0px;
+  overflow: hidden;
+}

@@ -1,0 +1,11 @@
+<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <path d="M 10 10 20 10 15 20 10 10" fill='var( --medium-dark-background )' stroke='none' />
+  <path d="M 20 10 30 10 25 20 20 10" fill='var( --medium-dark-background )' stroke='none' />
+  <path d="M 30 10 40 10 35 20 30 10" fill='var( --medium-dark-background )' stroke='none' />
+  <path d="M 40 10 50 10 45 20 40 10" fill='var( --medium-dark-background )' stroke='none' />
+  <path d="M 15 20 25 20 20 30 15 20" fill='var( --medium-dark-background )' stroke='none' />
+  <path d="M 35 20 45 20 40 30 35 20" fill='var( --medium-dark-background )' stroke='none' />
+  <path d="M 20 30 30 30 25 40 20 30" fill='var( --medium-dark-background )' stroke='none' />
+  <path d="M 30 30 40 30 35 40 30 30" fill='var( --medium-dark-background )' stroke='none' />
+  <path d="M 25 40 35 40 30 50 25 40" fill='var( --medium-dark-background )' stroke='none' />
+</svg>

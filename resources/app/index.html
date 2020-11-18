@@ -1,0 +1,26 @@
+<html lang='EN'>
+  <head>
+
+    <!--Init Viewport-->
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no'>
+
+    <!--Globals-->
+    <script>
+      const store = require( './store/store.js' )
+      const types = require( './store/types.js' )
+      const actions = require( './store/actions.js' )
+    </script>
+
+    <!--Styles-->
+    <link rel='stylesheet' type='text/css' href='./index.css'></link>
+  </head>
+
+  <!--Template-->
+  <body>
+    <app-component></app-component>
+  </body>
+  <script>
+    require( './scripts/loadComponents.js' )
+    require( './scripts/ipcRenderer.js' )
+  </script>
+</html>

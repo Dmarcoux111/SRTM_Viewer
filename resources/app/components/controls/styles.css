@@ -1,0 +1,39 @@
+#controls {
+  position: fixed;
+  top: 2px;
+  right: 2px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 4px;
+  background: var( --atom-background );
+  border-radius: 4px;
+}
+
+.control {
+  display: flex;
+  background: none;
+  border: 1px solid var( --text-green );
+  color: var( --text-green );
+  border-radius: 4px;
+  margin: 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+.control:hover {
+  background: var( --text-green );
+  color: black;
+}
+
+.menu {
+  border-radius: 4px;
+  margin: 2px;
+  cursor: pointer;
+  outline: none;
+}
+
+.active {
+  background: var( --text-green );
+  color: black;
+}

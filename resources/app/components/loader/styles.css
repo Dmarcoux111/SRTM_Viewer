@@ -1,0 +1,10 @@
+#loader {
+  z-index: 2;
+  position: fixed;
+  bottom: 0;
+  background: var( --success-green );
+  height: 24px;
+  width: 0%;
+  display: none;
+  box-sizing: border-box;
+}
