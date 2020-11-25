@@ -1,5 +1,6 @@
 # SRTM_Viewer
 Viewer for NASA's Shuttle Radar Topography Mission ( Windows )
+
 Main resource for the project was '3D Engine Design for Virtual Globes', by Patrick Cozzi and Kevin Ring.
 
 https://www.youtube.com/watch?v=8g2tqN070OM&feature=youtu.be
