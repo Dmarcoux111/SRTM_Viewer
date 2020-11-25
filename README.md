@@ -31,5 +31,7 @@ Main resource for the project was '3D Engine Design for Virtual Globes', by Patr
 
 
 -Improvements that could be made...
+
   -convert to wgs84 ( chapter 2 )
+  
   -handle LOD better at the poles ( chapter 4 )
