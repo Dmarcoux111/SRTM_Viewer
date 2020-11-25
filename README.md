@@ -26,7 +26,7 @@ click electron.exe | cd resources/app/ && npm run prod | cd resources/app/ && np
 
 
 
-Main resource for the project was '3D Engine design for Virtual Globes', by Patrick Cozzi and Kevin Ring.
+Main resource for the project was '3D Engine Design for Virtual Globes', by Patrick Cozzi and Kevin Ring.
 
 
 
