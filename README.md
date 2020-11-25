@@ -1,5 +1,5 @@
 # SRTM_Viewer
-Viewer for NASA's Shuttle Radar Topography Mission ( Windows )
+Viewer for NASA's Shuttle Radar Topography Mission Elevation Dataset ( Windows )
 
 Main resource for the project was '3D Engine Design for Virtual Globes', by Patrick Cozzi and Kevin Ring.
 
