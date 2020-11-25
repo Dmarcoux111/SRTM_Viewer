@@ -1,5 +1,6 @@
 # SRTM_Viewer
 Viewer for NASA's Shuttle Radar Topography Mission
+Main resource for the project was '3D Engine Design for Virtual Globes', by Patrick Cozzi and Kevin Ring.
 
 https://www.youtube.com/watch?v=8g2tqN070OM&feature=youtu.be
 
@@ -23,10 +24,6 @@ click electron.exe | cd resources/app/ && npm run prod | cd resources/app/ && np
 *note, I would include the entire tif file in source, however github permits me from uploading anything above 100mb. Take it up with Mr. Git.
 
 
-
-
-
-Main resource for the project was '3D Engine Design for Virtual Globes', by Patrick Cozzi and Kevin Ring.
 
 
 
