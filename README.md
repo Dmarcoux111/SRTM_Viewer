@@ -21,3 +21,15 @@ click electron.exe | cd resources/app/ && npm run prod | cd resources/app/ && np
 
 
 *note, I would include the entire tif file in source, however github permits me from uploading anything above 100mb. Take it up with Mr. Git.
+
+
+
+
+
+Main resource for the project was '3D Engine design for Virtual Globes', by Patrick Cozzi and Kevin Ring.
+
+
+
+-Improvements that could be made...
+  -convert to wgs84 ( chapter 2 )
+  -handle LOD better at the poles ( chapter 4 )
