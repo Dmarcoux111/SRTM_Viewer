@@ -2,7 +2,7 @@
   "name": "srtm-viewer",
   "version": "1.0.0",
   "author": "Daniel Marcoux",
-  "license": "SUCMA_DIC",
+  "license": "No Idea",
   "description": "View: https://www.e-education.psu.edu/natureofgeoinfo/c7_p13.html",
   "main": "index.js",
   "scripts": {
